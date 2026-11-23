@@ -1,0 +1,136 @@
+{
+ "generated": "2026-09-15T16:28:35",
+ "routes": [
+  "comfy-ds"
+ ],
+ "runs": [
+  {
+   "scene": "camp",
+   "variant": "a",
+   "route": "comfy-ds",
+   "seed": 2822026,
+   "stats_line": "strip p10/50/90 3/24/59 (orig 15/42/115) \u00b7 44k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.4
+  },
+  {
+   "scene": "camp",
+   "variant": "b",
+   "route": "comfy-ds",
+   "seed": 2822031,
+   "stats_line": "strip p10/50/90 1/17/35 (orig 15/42/115) \u00b7 26k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.4
+  },
+  {
+   "scene": "zone-0",
+   "variant": "a",
+   "route": "comfy-ds",
+   "seed": 2822036,
+   "stats_line": "strip p10/50/90 6/25/139 (orig 18/50/109) \u00b7 80k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.4
+  },
+  {
+   "scene": "zone-0",
+   "variant": "b",
+   "route": "comfy-ds",
+   "seed": 2822041,
+   "stats_line": "strip p10/50/90 3/24/50 (orig 18/50/109) \u00b7 51k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.4
+  },
+  {
+   "scene": "zone-1",
+   "variant": "b",
+   "route": "comfy-ds",
+   "seed": 2822051,
+   "stats_line": "strip p10/50/90 11/48/131 (orig 9/34/74) \u00b7 121k colors",
+   "seconds": 3.7,
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 16,
+    "cfg": 2.5,
+    "note": "staged before per-run sampler recording; params from the staging run (DS_LCM_STEPS=16 DS_LCM_CFG=2.5)"
+   }
+  },
+  {
+   "scene": "zone-2",
+   "variant": "a",
+   "route": "comfy-ds",
+   "seed": 2822056,
+   "stats_line": "strip p10/50/90 5/56/119 (orig 14/57/143) \u00b7 29k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.5
+  },
+  {
+   "scene": "zone-2",
+   "variant": "b",
+   "route": "comfy-ds",
+   "seed": 2822061,
+   "stats_line": "strip p10/50/90 33/92/144 (orig 14/57/143) \u00b7 33k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.5
+  },
+  {
+   "scene": "zone-3",
+   "variant": "a",
+   "route": "comfy-ds",
+   "seed": 2822066,
+   "stats_line": "strip p10/50/90 19/44/137 (orig 9/34/78) \u00b7 69k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.4
+  },
+  {
+   "scene": "zone-3",
+   "variant": "b",
+   "route": "comfy-ds",
+   "seed": 2822071,
+   "stats_line": "strip p10/50/90 8/48/143 (orig 9/34/78) \u00b7 58k colors",
+   "sampler": {
+    "ckpt": "DreamShaper8_LCM.safetensors",
+    "latent": "1216x680",
+    "steps": 8,
+    "cfg": 1.8
+   },
+   "seconds": 3.3
+  }
+ ],
+ "outage": ""
+}
